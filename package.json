@@ -7,11 +7,31 @@
         "dev": "vite"
     },
     "devDependencies": {
+        "@prettier/plugin-php": "^0.22.4",
         "@tailwindcss/vite": "^4.0.0",
         "axios": "^1.8.2",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.2.0",
+        "prettier": "^3.6.2",
         "tailwindcss": "^4.0.0",
         "vite": "^6.2.4"
-    }
+    },
+    "name": "blogsite",
+    "version": "1.0.0",
+    "description": "This project is a Simple Blog Website built with Laravel. It allows users to create, read, update, and delete (CRUD) blog posts.  The blog has user-friendly routes, basic authentication, and an admin dashboard for managing posts.",
+    "main": "vite.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Alameh777/LaravelBlogSite.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Alameh777/LaravelBlogSite/issues"
+    },
+    "homepage": "https://github.com/Alameh777/LaravelBlogSite#readme"
 }
